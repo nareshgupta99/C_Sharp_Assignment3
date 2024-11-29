@@ -10,9 +10,19 @@ namespace Assignment3
     {
         static void Main(string[] args)
         {
-            SimpleCalculator calculator = new SimpleCalculator();
-            calculator.calculate();
-            
+            // int[] numbers = { 10, 20, 30, 40, 50 };
+            //double average = MathHelper.CalculateAverage(numbers);
+            //Console.WriteLine(average);
+
+            Person person = new Person
+            {
+                FirstName = "John",
+                LastName = "Doe"
+            };
+
+            person.PrintFullName();
+            Console.ReadLine();
+
         }
     }
 }

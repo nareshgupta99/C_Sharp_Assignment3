@@ -59,7 +59,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BankAccount.cs" />
-    <Compile Include="ReadOnly.cs" />
+    <Compile Include="MathHelper.cs" />
+    <Compile Include="Person.Methods.cs" />
+    <Compile Include="Person.Properties.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
