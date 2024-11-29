@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Assignment3
 {
-    internal class TempratureConverter
+    
+    public abstract class Shape
     {
-        public float CelciusToFerhenhite(float temp)
-        {
-            return (temp * 9 / 5) + 32;
-        }
+   
+        public abstract double CalculateArea();
     }
+
 }
